@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Digilent Agent
+Comment=The Digilent Agent is a service that runs in the system tray and enables browser based applications to communicate with Digilent hardware.
+Keywords=digilent;agent;system-tray
+Categories=Utility;Electronics
+Terminal=false
+Icon=digilent-agent
+Exec=/usr/bin/digilent-agent
