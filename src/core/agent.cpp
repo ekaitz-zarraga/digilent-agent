@@ -94,12 +94,7 @@ QString Agent::getBuildNote() {
 
 bool Agent::launchWfl() {
     //Todo - Launch Electron Version If It Exists
-
-    if(internetAvailable()) {
-        return QDesktopServices::openUrl(QUrl("http://waveformslive.com/"));
-    } else {
-       return QDesktopServices::openUrl(QUrl("http://127.0.0.1:42135/"));
-    }
+   return QDesktopServices::openUrl(QUrl("http://127.0.0.1:42135/"));
 }
 
 //Set the active device by name.  A new device object is created unless the target device is already active and open.  This command also puts the device into JSON mode.
